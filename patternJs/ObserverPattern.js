@@ -70,8 +70,8 @@
   
   
   // Concrete Subject
-  
   // Extend the controlling checkbox with the Subject class
+  //添加观察者
   extend( controlCheckbox, new Subject() );
   
   // Clicking the checkbox will trigger notifications to its observers
